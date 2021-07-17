@@ -1130,9 +1130,6 @@ namespace WatchFace
 			// aapt resource value: 0x7F08003C
 			public const int preview = 2131230780;
 			
-			// aapt resource value: 0x7F08003D
-			public const int skull_background = 2131230781;
-			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

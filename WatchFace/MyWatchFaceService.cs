@@ -14,10 +14,6 @@ using Java.Util.Concurrent;
 
 namespace WatchFace
 {
-    // MyWatchFaceService implements only one method, OnCreateEngine, 
-    // and it defines a nested class that is derived from
-    // CanvasWatchFaceService.Engine.
-
     public class MyWatchFaceService : CanvasWatchFaceService
     {
         // Used for logging:
@@ -158,7 +154,6 @@ namespace WatchFace
 
             public override void OnDraw (Canvas canvas, Rect bounds)
             {
-                //time.SetToNow();
                 timedate = DateTime.Now;
 
                 int hour = timedate.Hour;

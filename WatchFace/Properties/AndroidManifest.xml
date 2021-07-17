@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.soma.dualwatch" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.soma.lostday" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="28" />
 	<uses-feature android:name="android.hardware.type.watch" />
-	<application android:label="DualWatch" android:theme="@android:style/Theme.DeviceDefault" android:icon="@drawable/logo">
-		<service android:name="watchface.MyWatchFaceService" android:label="DualWatch" android:allowEmbedded="true" android:taskAffinity="" android:permission="android.permission.BIND_WALLPAPER">
+	<application android:label="LostDay" android:theme="@android:style/Theme.DeviceDefault" android:icon="@drawable/logo">
+		<service android:name="watchface.MyWatchFaceService" android:label="LostDay" android:allowEmbedded="true" android:taskAffinity="" android:permission="android.permission.BIND_WALLPAPER">
 			<meta-data android:name="android.service.wallpaper" android:resource="@xml/watch_face" />
 			<meta-data android:name="com.google.android.wearable.watchface.preview" android:resource="@drawable/preview" />
 			<intent-filter>
